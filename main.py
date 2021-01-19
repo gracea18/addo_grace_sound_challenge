@@ -1,7 +1,7 @@
 while True:
     input.sound_level()
 
-    if input.sound_level() > 5:
+    if input.sound_level() > 150:
         light.show_animation(light.rainbowAnimation, 5000)
 
     else: 
